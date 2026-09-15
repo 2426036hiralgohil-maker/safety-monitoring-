@@ -1,0 +1,43 @@
+/* Main App Background */
+.stApp {
+    background: #0f172a;
+    color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Glassmorphism Cards */
+div[data-testid="stMetric"], .stCard {
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+}
+
+/* Sidebar Custom Styling */
+[data-testid="stSidebar"] {
+    background: #1e293b !important;
+    border-right: 1px solid #334155;
+}
+
+/* Custom Alert Card */
+.sos-card {
+    background: linear-gradient(135deg, #ef4444, #991b1b);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Modern Rounded Buttons */
+.stButton>button {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,242,254,0.3);
+}
